@@ -29,6 +29,6 @@ if %MAJOR%==3 if %MINOR% LSS 7 (
     exit /b
 )
 
-echo Starting ui/python/main.py...
-python ui/python/main.py
+echo Starting src/ui/python/main.py...
+python src/ui/python/main.py
 pause
