@@ -1,7 +1,7 @@
 @echo off
 echo loading...
 
-:: моя проверка про которую я говорил
+:: checking if python installed in path
 where python >nul 2>nul
 if errorlevel 1 (
     echo Python is not installed in PATH, please install it.
