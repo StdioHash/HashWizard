@@ -1,5 +1,5 @@
 @echo off
-св /d %~dpn0
+cd /d %~dpn0
 echo loading...
 
 :: checking if python installed in path
