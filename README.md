@@ -1,9 +1,13 @@
 # HashWizard
-HashWizard - a new and very powerful hash brute forcer.
+HashWizard - a new very powerful hash brute forcer.
 
 in development
 
 ## About 
+
+- wordbooks support
+
+## building
 
 ## license 
 
