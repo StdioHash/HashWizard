@@ -1,5 +1,5 @@
 @echo off
-cd /d %~dpn0
+cd /d %~dp0
 echo loading...
 
 :: checking if python installed in path
@@ -31,5 +31,5 @@ if %MAJOR%==3 if %MINOR% LSS 7 (
 )
 
 echo Starting src/ui/python/main.py...
-python /src/ui/python/main.py
+python "src\ui\python\main.py"
 pause
