@@ -44,13 +44,16 @@ def main():
                                                                                                                  
                          "A man captivated by his passions cannot be free." - Pythagoras
                     | Version - 0.0.0 | developer - Stdio | GitHub - @StdioHash | Site - soon |                                                                       
-                                                                                                                 
-                                                                                                                 
-                                                                                                                 
-                                                                                                                 
 
+
+                                    1. Hash decryption      3. Password generation
+                                    2. Text enctyption      4. Info     
+                                                    
+                                                     5. Exit                                                              
+                                                                                                                 
 """
         print(text)
+        choice = input(">Enter a number: ")
 
         return
 
