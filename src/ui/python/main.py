@@ -1,6 +1,7 @@
 import importlib.util
 import subprocess
 import sys
+import time
 
 packages = ["termcolor", "colorama"]
 
@@ -25,4 +26,33 @@ init(autoreset=True)
 from colorama import Fore, Back
 
 
-print(colored(">HashWizard. LOADING...", "black", "on_yellow"))
+def main():
+    while True:
+        os.system("cls" if os.name == "nt" else "clear")
+        print(colored(">HashWizard. LOADING...", "black", "on_yellow"))
+        time.sleep(0.5)
+        text = """
+
+    █████   █████                   █████         █████   ███   █████ █████                                    █████
+   ▒▒███   ▒▒███                   ▒▒███         ▒▒███   ▒███  ▒▒███ ▒▒███                                    ▒▒███ 
+    ▒███    ▒███   ██████    █████  ▒███████      ▒███   ▒███   ▒███  ▒███   █████████  ██████   ████████   ███████ 
+    ▒███████████  ▒▒▒▒▒███  ███▒▒   ▒███▒▒███     ▒███   ▒███   ▒███  ▒███  ▒█▒▒▒▒███  ▒▒▒▒▒███ ▒▒███▒▒███ ███▒▒███ 
+    ▒███▒▒▒▒▒███   ███████ ▒▒█████  ▒███ ▒███     ▒▒███  █████  ███   ▒███  ▒   ███▒    ███████  ▒███ ▒▒▒ ▒███ ▒███ 
+    ▒███    ▒███  ███▒▒███  ▒▒▒▒███ ▒███ ▒███      ▒▒▒█████▒█████▒    ▒███    ███▒   █ ███▒▒███  ▒███     ▒███ ▒███ 
+    █████   █████▒▒████████ ██████  ████ █████       ▒▒███ ▒▒███      █████  █████████▒▒████████ █████    ▒▒████████
+   ▒▒▒▒   ▒▒▒▒▒  ▒▒▒▒▒▒▒▒ ▒▒▒▒▒▒  ▒▒▒▒ ▒▒▒▒▒         ▒▒▒   ▒▒▒      ▒▒▒▒▒  ▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒ ▒▒▒▒▒      ▒▒▒▒▒▒▒▒ 
+                                                                                                                 
+                         "A man captivated by his passions cannot be free." - Pythagoras
+                    | Version - 0.0.0 | developer - Stdio | GitHub - @StdioHash | Site - soon |                                                                       
+                                                                                                                 
+                                                                                                                 
+                                                                                                                 
+                                                                                                                 
+
+"""
+        print(text)
+
+        return
+
+if __name__ == "__main__":
+    main()
