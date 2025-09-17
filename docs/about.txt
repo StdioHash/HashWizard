@@ -1,1 +1,33 @@
-
+# HashWizard — Hash brute-forcer
+# Version: 0.1
+# Project start: 2025-09-09
+# Idea conceived: February 2025
+#
+# About:
+# HashWizard is a straightforward hash brute-forcer. It tries different attack
+# methods (dictionary, mask, brute-force, combinations) to recover the original
+# input from a hash digest. Think of it as a password-cracking engine: you give
+# it a hash, it keeps guessing until it finds a match.
+#
+# Platforms:
+# Started on Windows, but designed to be cross-platform.
+#
+# Implementation:
+# Written in Batch, Python, and C. Early builds were experimental, but compilation
+# support is now on the roadmap.
+#
+# Capabilities:
+# - Dictionary-based attacks
+# - Mask/charset brute-forcing
+# - Rule-based modifications
+# - Basic rainbow-table lookups
+#
+# Project nature:
+# HashWizard is a hobbyist project made for tech enthusiasts, learners and
+# researchers. It is not a commercial product — donations may support further
+# development, but the software itself is free to use and share.
+#
+# Note:
+# This is not a generic "utility" or disguised tool — it is a hash brute-forcer,
+# built to experiment with password recovery techniques in a clear, direct way.
+# Terms of use and licensing are covered in the LICENSE file.
