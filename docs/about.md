@@ -4,14 +4,12 @@
 HashWizard — прямой и функциональный hash brute-forcer.  
 Он выполняет словарные, масочные, rule- и чисто брутфорс-атаки для поиска исходной строки по хешу. Инструмент технический и прагматичный: делает ровно то, что должен — перебирает варианты и возвращает совпадения.
 
-''
   ## Quick facts
 - Version: 0.1  
 - Project start: 2025-09-09  
 - Idea conceived: February 2025  
 - Languages: Batch, Python, C  
 - Initial platform: Windows (cross-platform planned)
-- '''
 
 ## Capabilities
 - Dictionary attacks with transformation rules  
